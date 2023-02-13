@@ -8,6 +8,6 @@ If you agree with adopting instead of buying don't miss this app!
 
 ## Features
 
-We provide a list of animals to be adopted
+Provide a list of animals to be adopted
 
-You can find them by keyword search, filters or on google map and view animal profiles associated with the shelter infomation.
+You can find them by keyword, filters or on google map and view animal profiles associated with the shelter infomation.
