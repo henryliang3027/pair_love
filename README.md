@@ -1,16 +1,11 @@
 # pair_love
 
-A new Flutter project.
+Pair Love is a stray animal adoption app.
 
-## Getting Started
+Find dogs, cats and other animals you love in this app.
+If you agree with adopting instead of buying don't miss this app!
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+We Provide a list of animals to be adopted
+You can find them by keyword search, filters or on google map and view animal profiles associated with the shelter infomation.
