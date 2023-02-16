@@ -1,7 +1,6 @@
 import 'package:animal_repository/animal_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pair_love/animalLIst/view/animal_list_page.dart';
 import 'package:pair_love/home/home_page.dart';
 
 class App extends StatelessWidget {

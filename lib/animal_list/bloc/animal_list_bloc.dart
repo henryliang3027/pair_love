@@ -13,6 +13,8 @@ class AnimalListBloc extends Bloc<AnimalListEvent, AnimalListState> {
   })  : _animalRepository = animalRepository,
         super(const AnimalListState()) {
     on<AnimalListRequested>(_onAnimalListRequested);
+
+    add(const AnimalListRequested());
   }
 
   final AnimalRepository _animalRepository;

@@ -37,14 +37,15 @@ class AnimalRepository {
     int adjustedSkip = skip ?? 0;
 
     String animalListApiPath =
-        '/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL';
+        '/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL&\$top=${adjustedTop.toString()}&\$skip=${adjustedSkip.toString()}';
 
     try {
       Response response = await _dio.get(
         animalListApiPath,
       );
 
-      List<Map<String, dynamic>> data = jsonDecode(response.data.toString());
+      List data = response.data;
+      print(data);
 
       if (data.runtimeType != List) throw AnimalRequestFailure();
 
